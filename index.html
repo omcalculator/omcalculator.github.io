@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset='UTF-8'/>
-<meta content='width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1' name='viewport'/>
+<meta charset="UTF-8"/>
+<meta content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
 <title>OmCalculator - Free Finance, Health, Mathematics, Science Calculator</title>
-<link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet'/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
 <style>
 body {margin:0;font-family:Arial}
 .topnav {
@@ -117,7 +117,6 @@ footer {
   padding: 20px 0;
 }
 
-/*footer csss end*/
 /*content wrapper css start*/
 .content-wrapper {
   display: flex;
@@ -136,8 +135,6 @@ aside {
   padding: 20px;
 }
 
-
-
 /* Media Query for Phones */
 @media screen and (max-width: 576px) {
   main, aside {
@@ -145,55 +142,56 @@ aside {
   }
 }
 /*content wrapper css end*/
-    </style>
+</style>
 </head>
 
 <body>
 
 <!-- Header Area-->
-<div class='topnav' id='myTopnav'>
-  <a class='active' href='#home'>calculator.org.in</a>
-  <a href='#news'>News</a>
-  <a href='#contact'>Contact</a>
-  <div class='dropdown'>
-    <button class='dropbtn'>Dropdown 
-      <i class='fa fa-caret-down'/>
+<div class="topnav" id="myTopnav">
+  <a class="active" href="#home">calculator.org.in</a>
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+  <div class="dropdown">
+    <button class="dropbtn">Dropdown 
+      <i class="fa fa-caret-down"></i>
     </button>
-    <div class='dropdown-content'>
-      <a href='#'>Link 1</a>
-      <a href='#'>Link 2</a>
-      <a href='#'>Link 3</a>
+    <div class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
     </div>
   </div> 
-  <a href='#about'>About</a>
-  <a class='icon' href='javascript:void(0);' onclick='myFunction()' style='font-size:15px;'>&#9776;</a>
+  <a href="#about">About</a>
+  <a class="icon" href="javascript:void(0);" onclick="myFunction()" style="font-size:15px;">&#9776;</a>
 </div>
 <script>
 function myFunction() {
-  var x = document.getElementById(&quot;myTopnav&quot;);
-  if (x.className === &quot;topnav&quot;) {
-    x.className += &quot; responsive&quot;;
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
   } else {
-    x.className = &quot;topnav&quot;;
+    x.className = "topnav";
   }
 }
 </script>
 <!-- Content Wrapper -->
-<div class='content-wrapper'>
-<!-- Main area blog posts -->
-<main>
-  <!-- all pages but NOT homepage -->
-  <p>A car is a wheeled, self-powered motor vehicle used for transportation.</p>
-</main>
-<!-- Sidebar Area Start -->
-<aside>
-<b:section class='sidebar' id='sidebar' showaddelement='yes'/>
-  <p>hiiiii</p>
-</aside>
+<div class="content-wrapper">
+  <!-- Main area blog posts -->
+  <main>
+    <!-- all pages but NOT homepage -->
+    <p>A car is a wheeled, self-powered motor vehicle used for transportation.</p>
+  </main>
+  <!-- Sidebar Area Start -->
+  <aside>
+    <b:section class="sidebar" id="sidebar" showaddelement="yes"/>
+    <p>hiiiii</p>
+  </aside>
 </div>
 <!-- Footer Start -->
 <footer>
-    <p>&#169; 2024 Calculator. All rights reserved.</p>
-  </footer>
+  <p>&#169; 2024 Calculator. All rights reserved.</p>
+</footer>
+
 </body>
 </html>
